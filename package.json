@@ -1,5 +1,5 @@
 {
-  "name": "com.unity.factorycreator",
+  "name": "com.biscuit_prime.factorycreator",
   "version": "1.0.0",
   "displayName": "Factory Creator Package",
   "description": "This package grants access to a new Window to create a modular and use-ready factory.",
