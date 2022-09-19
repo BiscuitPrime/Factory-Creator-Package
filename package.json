@@ -1,0 +1,16 @@
+{
+  "name": "com.unity.factorycreator",
+  "version": "1.0.0",
+  "displayName": "Factory Creator Package",
+  "description": "This package grants access to a new Window to create a modular and use-ready factory.",
+  "unity": "2021.3",
+  "unityRelease": "6f1",
+  "keywords": [
+    "Factory",
+    "Factory Creator"
+  ],
+  "author": {
+    "name": "Henri 'Biscuit Prime' Nomico"
+  },
+  "type": "tool"
+}
