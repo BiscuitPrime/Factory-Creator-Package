@@ -1,3 +1,6 @@
 {
-	"name": "factorycreator.ad"
+	"name": "factorycreator.ad",
+	"references": [
+        "biscuit_prime.factorycreator.Editor"
+	]
 }
