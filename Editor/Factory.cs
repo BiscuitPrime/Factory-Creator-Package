@@ -68,22 +68,17 @@ public class Factory : MonoBehaviour
      */
     public GameObject CreateObject(string name)
     {
-        print("1");
         if (!poolDictionary.ContainsKey(name))
         {
-            print("ERROR : no NAME");
-            //throw new UnassignedReferenceException("Factory class : CreateObject() : inputted string<name> is not present in the pooldictionary");
+            throw new UnassignedReferenceException("Factory class : CreateObject() : inputted string<name> is not present in the pooldictionary");
         }
-        print("2");
         GameObject spawnedObject = poolDictionary[name].Dequeue();
-        print("3");
         if (spawnedObject == null)
         {
             throw new UnassignedReferenceException("Factory class : CreateObject() : spawnedObject is null");
         }
         spawnedObject.SetActive(true);
         poolDictionary[name].Enqueue(spawnedObject);
-        print("4");
         return spawnedObject;
     }
     #endregion
