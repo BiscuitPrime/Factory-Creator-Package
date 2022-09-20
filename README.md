@@ -1,6 +1,6 @@
-[[[FACTORY CREATOR PACKAGE]]]
+# FACTORY CREATOR PACKAGE
 
-The following package grants the user access to a simple modular Factory creation tool.
+The following package grants the user access to a simple modular Factory creation tool. The factory also uses an object pooling method for better optimisation of your games.
 
 To access the creation tool :
 -> Window/Factory Creator
